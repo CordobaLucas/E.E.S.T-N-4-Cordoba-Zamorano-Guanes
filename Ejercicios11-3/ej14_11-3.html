@@ -1,0 +1,74 @@
+<html>
+<head> <link rel= "stylesheet" type="text/css" href="css.css">
+<title> formulario </title> 
+</head>
+<body>
+<form action="datos.php" method="post">
+
+Ingresar nombre:
+<input type="text" name="nombre" size="15">
+<br><br>
+Ingresar usuario:
+<input type="text" name="usuario" size="20">
+<br><br>
+Contraseña:
+<input type="password" name="contraseña" size="15">
+<br><br>
+Describite:
+<textarea name="descripcion" rows="3" cols="20"> </textarea>
+<br><br>
+			Edad:
+			<br>
+			<input type="radio" name="edad" value="1">Niño<br>
+			<input type="radio" name="edad" value="2">Adulto<br>
+			<input type="radio" name="edad" value="3">Anciano<br>
+			<br>
+
+			Nacionalidad:
+			<select name="Residencia">
+ 			<option value="1">Argentina</option>
+ 			<option value="2">Bolivia</option>
+ 			<option value="3">Ecuador</option>
+			</select>
+<br>
+			Lenguajes de programacion que sepa:
+			<select name="colores[]" size="3" multiple>
+ 			<option value="1">C</option>
+ 			<option value="2">php</option>
+ 			<option value="3">HTML</option>
+			</select> 
+<br>
+			Estudios:
+			<select name="idiomas">
+			<optgroup label="Secundario">
+ 				<option value="1">Cursando secundario</option>
+ 				<option value="2">Secundario finalizado</option>
+			</optgroup>
+			<optgroup label="Carrera">
+ 				<option value="4">Carrera de grado</option>
+ 				<option value="5">Posgrado</option>
+			</optgroup>
+			</select>
+<br>
+			<fieldset>
+			<legend><h3>Otros datos</h3></legend>
+				<h2>Estado civil:
+				<input type="text" name="nombre" size="30"><br>
+				Documento:
+				<input type="text" name="dni" size="8"><br>
+				Dirección:
+				<input type="text" name="fechanacimiento" size="12"><br>
+				Departamento:
+				<input type="text" name="direccionpersona" size="30"><br>
+				</h2>
+			</fieldset>	
+			<br>
+<button type="submit">Enviar<img src="foto2.png" alt="..."></button>
+
+</form>
+</body>
+</html>
+
+
+
+

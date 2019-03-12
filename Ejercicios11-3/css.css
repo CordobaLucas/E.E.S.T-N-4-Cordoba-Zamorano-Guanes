@@ -1,0 +1,31 @@
+body {
+ 	font-family: arial;
+ 	color: white;
+ 	background-color: grey;
+ 	}
+ p {
+ 	font-size: 18pt;
+ 	font-family: arial;
+ 	text-align: center;
+   }
+h1 {
+	font-size: 13pt;
+	font-family:century gothic;
+	background-color: grey;
+ 	text-align:left;
+ }
+  h2 {
+ 	font-size: 12pt;
+	font-family: arial;
+	color:black ;
+	text-align: center;	
+ }
+  h3 {
+ 	font-size: 32pt;
+ 	font-family: times new roman;
+ 	text-align:center;
+	color:black;
+     }
+  fieldset {
+  	background-color:lightgrey;
+  }
